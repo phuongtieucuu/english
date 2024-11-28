@@ -9,8 +9,7 @@ const vocabularySchema = new Schema(
     voc_api:  { type: String, default: "" },
     voc_sec: {
         type: Schema.Types.ObjectId,
-        ref: "section",
-        default: ""
+        ref: "Section",
     }
   },
   {
